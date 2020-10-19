@@ -1,0 +1,12 @@
+$theme-colors: (
+        "primary": #7579e7,
+        "success": #f6f5f5,
+        "danger": #ff414d,
+        "warning": #d7385e
+);
+
+@import "../react-contact-book/node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem; //
+}

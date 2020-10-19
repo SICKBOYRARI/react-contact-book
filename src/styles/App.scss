@@ -1,0 +1,16 @@
+.actions {
+  opacity: 0;
+  transition: 100ms ease-in-out;
+}
+
+tr:hover .actions {
+  opacity: 1;
+  transition: 100ms ease-in-out;
+}
+
+tbody td a {
+  color: #999;
+  &:hover {
+    color: #222;
+  }
+}
